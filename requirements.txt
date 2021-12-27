@@ -1,8 +1,10 @@
 Django
 coverage
 dj-database-url
-mysqlclient
+django-compressor
+django-libsass
 gunicorn
+mysqlclient
 parameterized
 psycopg2-binary
 whitenoise
