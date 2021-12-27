@@ -14,5 +14,5 @@ venv
 /env/
 celerybeat-schedule
 local_database
-staticfiles/*
-!staticfiles/dummy.txt
+!project/staticfiles/dummy.txt
+project/staticfiles/*

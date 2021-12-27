@@ -1,4 +1,6 @@
+django-compressor
 django-debug-toolbar
 django-extensions
+django-libsass
 flake8
 
