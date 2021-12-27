@@ -1,0 +1,8 @@
+Django
+coverage
+dj-database-url
+mysqlclient
+gunicorn
+parameterized
+psycopg2-binary
+whitenoise
