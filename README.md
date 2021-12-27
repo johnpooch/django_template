@@ -33,3 +33,5 @@ root. If there are code style problems they will be displayed.
 
 To generate a test coverage report test coverage, run `coverage run manage.py test` from within the container. Then run `coverage report` to see the results.
 
+[docker]: https://docs.docker.com/
+[docker-compose]: https://docs.docker.com/compose/
