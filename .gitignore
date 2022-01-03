@@ -17,3 +17,4 @@ local_database
 project/staticfiles/*
 !project/staticfiles/dummy.txt
 *.sqlite3
+staticfiles

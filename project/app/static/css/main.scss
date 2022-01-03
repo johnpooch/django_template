@@ -1,12 +1,135 @@
-$font-family-primary: "RobotoDraft", "Helvetica Neue", Helvetica, Arial;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,400;0,700;0,400;1,700;1&display=swap");
 
-$palette-primary-main: #6200ee;
-$palette-primary-variant: #7300b3;
+$typography-font-family-primary: "Work Sans", "Helvetica Neue", Helvetica, Arial;
+
+$typography-font-weight-default: 400;
+$typography-font-weight-bold: 700;
+
+$palette-primary-main: #2564eb;
+$palette-primary-variant: #2592eb;
 $palette-secondary-main: #03dac6;
 $palette-secondary-variant: #018786;
-$palette-text-main: #000000;
+$palette-text-main: #111827;
+$palette-text-variant: #374151;
 $palette-text-contrast: #ffffff;
+$palette-surface-main: #ffffff;
+$palette-surface-variant: #f9fafb;
+
+$border: solid 1px #e5e7eb;
+
+$spacing-nav-height: 64px;
 
 body {
-  color: $palette-primary-main;
+  margin: 0;
+  font-family: $typography-font-family-primary;
+  font-weight: $typography-font-weight-default;
+  color: $palette-text-main;
+  font-size: 16px;
+}
+
+nav {
+  height: $spacing-nav-height;
+  border-bottom: $border;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: $typography-font-weight-bold;
+  font-size: 64px;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-weight: $typography-font-weight-bold;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-weight: $typography-font-weight-bold;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+strong {
+  font-weight: $typography-font-weight-bold;
+  font-size: 16px;
+}
+
+small {
+  font-size: 14px;
+}
+
+button {
+  font-weight: $typography-font-weight-bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.palette-primary-main {
+  background-color: $palette-primary-main;
+}
+
+.palette-primary-variant {
+  background-color: $palette-primary-variant;
+}
+
+.palette-secondary-main {
+  background-color: $palette-secondary-main;
+}
+
+.palette-secondary-variant {
+  background-color: $palette-secondary-variant;
+}
+
+.palette-text-main {
+  background-color: $palette-text-main;
+}
+
+.palette-text-variant {
+  background-color: $palette-text-variant;
+}
+
+.palette-surface-main {
+  background-color: $palette-surface-main;
+}
+
+.palette-surface-variant {
+  background-color: $palette-surface-variant;
+}
+
+.stylesheet-typography-container {
+  padding: 16px;
+  > div {
+    display: flex;
+    div {
+      width: 100%;
+    }
+  }
+}
+
+.stylesheet-palette-container {
+  padding: 16px;
+  ul {
+    ul {
+      display: flex;
+    }
+  }
+}
+
+.stylesheet-color-square {
+  border: $border;
+  height: 100px;
+  width: 100px;
 }
