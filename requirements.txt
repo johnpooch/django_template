@@ -2,9 +2,10 @@ Django
 coverage
 dj-database-url
 django-compressor
+django-heroku
 django-libsass
 gunicorn
 mysqlclient
 parameterized
-psycopg2-binary
+psycopg2
 whitenoise
